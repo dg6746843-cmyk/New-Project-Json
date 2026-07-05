@@ -1,0 +1,22 @@
+[
+    {
+      "serverId": 1,
+      "ip": "188.127.241.74",
+      "port": "4031",
+      "serverName": "LIVE STATE",
+      "onlinePlayers": 0,
+      "maxPlayers": 1000,
+      "isAvailable": true,
+      "description": "RULE YOUR STATE"
+    },
+    {
+      "serverId": 2,
+      "ip": "141.95.234.17",
+      "port": "2045",
+      "serverName": "TEST SERVER",
+      "onlinePlayers": 1,
+      "maxPlayers": 50,
+      "isAvailable": true,
+      "description": "FOR CHECKING"
+    }
+]
