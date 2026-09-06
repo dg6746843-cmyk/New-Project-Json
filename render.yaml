@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: discord-mod-ticket-bot
+    env: node
+    plan: free
+    # deploy-commands.js re-registers slash commands automatically on every deploy
+    buildCommand: npm install && node deploy-commands.js
+    startCommand: npm start
+    envVars:
+      - key: TOKEN
+        sync: false
+      - key: CLIENT_ID
+        sync: false
+      - key: GUILD_ID
+        sync: false
+      - key: PREFIX
+        value: "+"
+      - key: BRAND_NAME
+        value: "YourServer Moderation System"
